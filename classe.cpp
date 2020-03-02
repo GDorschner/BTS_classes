@@ -14,6 +14,50 @@ int main(int argc, char *argv[])
   name_base = *argv[1];
   base_debut = atoi(argv[2]); //enlever
 
+  cout << argv[1] << endl;
+
+  if (base_debut < 0 || base_debut > 67535)
+  {
+    cout << "Veuiller entre un nombre entre 0 et 67535." << endl;
+  }
+  else
+  {
+    if (base_debut == 0)
+    {
+      cout << "Base ";
+      switch (name_base)
+      {
+      case 'b':
+        cout << "Binaire" << endl;
+        cout << "0" << endl;
+        break;
+
+      case 'o':
+        cout << "Octale" << endl;
+        cout << "0" << endl;
+        break;
+
+      case 'h':
+        cout << "Hexadecimal" << endl;
+        cout << "0" << endl;
+        break;
+
+      case 's':
+        cout << "Shadok" << endl;
+        cout << "GA" << endl;
+        break;
+
+      default:
+        break;
+      }
+    }
+    else
+    {
+      test.setNbBase10(base_debut);
+      cout << test.DeterminerNombre(name_base) << endl;
+    }
+  }
+  //------------------
   //----------------ne marche pas la conversion de cahr en int ne peu pas avoir le nombre entier
   // for (int i = 2; i < argc; i++)
   // {
@@ -25,8 +69,6 @@ int main(int argc, char *argv[])
   // cin >> name_base;
   // cout << "Quelle votre nombre" << endl;
   // cin >> base_debut;
-  test.setNbBase10(base_debut);
-  cout << test.DeterminerNombre(name_base) << endl;
 
   return 0;
 };

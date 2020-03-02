@@ -12,7 +12,7 @@ bool c_numeration::setNbBase10(short unsigned nb)
 }
 bool c_numeration::setNbBase10(char *nb)
 {
-  // this->m_nbBase10a = this->convASCII2Int(nb,strlen(nb));
+  this->m_nbBase10a = this->convASCII2Int(nb, strlen(nb));
 }
 short unsigned c_numeration::getNbBase10()
 {
