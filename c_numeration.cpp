@@ -12,7 +12,7 @@ bool c_numeration::setNbBase10(short unsigned nb)
 }
 bool c_numeration::setNbBase10(char *nb)
 {
-  this->m_nbBase10a = this->convASCII2Int(nb, strlen(nb));
+  // this->m_nbBase10a = this->convASCII2Int(nb, strlen(nb));
 }
 short unsigned c_numeration::getNbBase10()
 {
@@ -135,14 +135,6 @@ string c_numeration::DeterminerNombre(char &name_base)
   {
     //base Shadok
     return this->DeterminerShadok();
-  }
-  else if (name_base == '-')
-  {
-    cout << "Options Signification" << endl;
-    cout << "-b Representation en binaire" << endl;
-    cout << "-o Representation en octal" << endl;
-    cout << "-h Representation en hexadecimal" << endl;
-    cout << "--help petite aide en ligne, s affiche par defaut si pas d option" << endl;
   }
 
   return 0;
