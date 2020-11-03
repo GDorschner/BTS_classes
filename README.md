@@ -10,7 +10,7 @@ To execute it, you have to type :
 
 # MIT License
 
-Copyright (c) 2020 Guillaume DORSCHNER
+Copyright (c) 2020 Guillaume Dorschner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
