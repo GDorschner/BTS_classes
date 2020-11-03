@@ -1,12 +1,12 @@
 # BTS_classes
 The purpose of this program is to be able to convert from decimal to binary/octal/hexa/shadock.
 To execute it, you have to type :
-```cmd
+```
 ./[name exécutable].exe [name base] [chiffre à convertir]
 ```
 
 # Example
-ScreenShot
+
 
 # MIT License
 
