@@ -1,13 +1,17 @@
 # BTS_classes
 The purpose of this program is to be able to convert from decimal to binary/octal/hexa/shadock.
+First of all do not have to compile it with this command:
+
+```
+g++ classe.cpp.cpp c_numeration.cpp -o [name executable].exe
+```
+
 To execute it, you have to type:
 ```
-./[name exécutable].exe [name base] [chiffre à convertir]
+./[name executable].exe [name base] [number to be converted]
 ```
 
 Base name are: b (binary) / o (octal) / h (hexa) / s (shadock)
-
-# Example
 
 
 # MIT License
