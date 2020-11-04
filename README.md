@@ -1,4 +1,4 @@
-# BTS_classes
+# binary conversion in C++
 The purpose of this program is to be able to convert from decimal to binary/octal/hexa/shadock.
 </br>
 🚧 First of all do not have to compile it with this command:
